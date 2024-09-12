@@ -32,15 +32,15 @@ tasks {
 publishing {
   repositories {
     maven {
-      name = "md5lukasReposilite"
+      name = "firedevRepo"
 
       url =
           uri(
-              "https://repo.md5lukas.de/${
+              "https://repo.firedev.uk/repository/maven-/${
                         if (version.toString().endsWith("-SNAPSHOT")) {
-                            "snapshots"
+                            "snapshots/"
                         } else {
-                            "releases"
+                            "releases/"
                         }
                     }")
 
