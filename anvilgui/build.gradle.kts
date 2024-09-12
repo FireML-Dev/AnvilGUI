@@ -36,7 +36,7 @@ publishing {
 
       url =
           uri(
-              "https://repo.firedev.uk/repository/maven-/${
+              "https://repo.firedev.uk/repository/maven-${
                         if (version.toString().endsWith("-SNAPSHOT")) {
                             "snapshots/"
                         } else {

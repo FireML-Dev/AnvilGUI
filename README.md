@@ -17,11 +17,11 @@ Due to the usage of the Paper API no version dependent code is needed anymore.
 Adding the required repository and dependency in Gradle KTS:
 ```kotlin
 repositories {
-  maven("https://repo.md5lukas.de/public")
+  maven("https://repo.firedev.uk/repository/maven-public/")
 }
 
 dependencies {
-  implementation("de.md5lukas:anvilgui:2.0.0-SNAPSHOT")
+  implementation("uk.firedev:anvilgui:2.0.1-SNAPSHOT")
 }
 ```
 or Maven:
